@@ -1,0 +1,15 @@
+---
+title: <%= title %>
+---
+
+.container
+  .row
+    .col-md-8
+    <% resources.to_h.each do |name, rdata| %>
+        <%= "<h2>#{name}</h2>" %>
+        <ul>
+        <% rdata.each do |resource| %>
+            <li><a href="<%= resource.link %>"><%= resource.name %></a><%= " #{resource.description}" %></li>
+        <% end %>
+        </ul>
+    <% end %>

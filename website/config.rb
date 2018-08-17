@@ -68,6 +68,13 @@ end
 
 # Proxy pages (https://middlemanapp.com/advanced/dynamic_pages/)
 
+proxy "/piano.html", "/resources.html",
+    :locals => {title: "Piano", resources: data.piano }, :ignore => true
+
+proxy "/guitar.html", "/resources.html",
+    :locals => {title: "Guitar", resources: data.guitar }, :ignore => true
+
+
 ###
 # Helpers
 ###
@@ -117,7 +124,7 @@ page "/sitemap.xml", layout: false
 # Site Settings
 ###
 # Set site setting, used in helpers / sitemap.xml / feed.xml.
-set :site_url, 'http://www.gerardcondon.com/music'
+set :site_url, 'https://www.gerardcondon.com/music'
 set :site_author, 'Gerard Condon'
 set :site_title, 'Music'
 set :site_description, 'Site containing resources for piano and Guitar.'
@@ -126,7 +133,7 @@ set :site_description, 'Site containing resources for piano and Guitar.'
 # set :theme_name, 'flatly'
 set :theme_name, false
 # set @analytics_account, like "XX-12345678-9"
-@analytics_account = "UA-71152906-1"
+@analytics_account = "UA-124147465-1"
 
 page "/feed.xml", layout: false
 page "/diagram.html", layout: :diagram
