@@ -34,7 +34,7 @@ set :markdown_engine, :redcarpet
 # Clear out automated posts folder
 automated_posts_folder = "#{config[:source]}/posts/automated"
 FileUtils.rmtree(automated_posts_folder)
-FileUtils.mkdir(automated_posts_folder)
+FileUtils.mkdir_p(automated_posts_folder)
 
 post_counter = 1
 if data.microposts
