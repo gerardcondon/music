@@ -173,5 +173,5 @@ activate :deploy do |deploy|
   # deploy.strategy = :submodule      # commit strategy: can be :force_push or :submodule, default: :force_push
   signature = "#{Middleman::Deploy::PACKAGE} #{Middleman::Deploy::VERSION}"
   time      = "#{Time.now.utc}"
-  deploy.commit_message = "#{base_message} at #{time} by #{signature} [ci skip]"
+  deploy.commit_message = "Automated commit at #{time} by #{signature} [ci skip]"
 end
