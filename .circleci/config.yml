@@ -18,3 +18,10 @@ jobs:
       - run:
           name: Print the Current Time
           command: date
+      - run:
+          name: Print working directory
+          command: pwd
+      - run:
+          name: Print the contents of the working directory
+          command: ls
+
