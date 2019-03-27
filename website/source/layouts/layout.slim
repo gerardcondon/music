@@ -13,16 +13,16 @@ html
       meta[property="twitter:site" content="@gercondon"]
       meta[property="twitter:title" content="#{truncate(current_article.title, length: 70)}"]
       meta[property="twitter:description" content="#{truncate(strip_tags(current_article.summary), length: 200)}"]
-      meta[property="twitter:url" content="http://www.gerardcondon.com/music#{current_article.url}"]
-      meta[property="twitter:image" content="http://www.gerardcondon.com/music/images/#{current_page.data.image ? current_page.data.image : 'twitter-chess.jpg'}"]
+      meta[property="twitter:url" content="https://www.gerardcondon.com/music#{current_article.url}"]
+      meta[property="twitter:image" content="https://www.gerardcondon.com/music/images/#{current_page.data.image ? current_page.data.image : 'twitter-chess.jpg'}"]
     - if current_page.data.twitter_card
       meta[property="twitter:card" content="summary"]
       meta[property="twitter:creator" content="@gercondon"]
       meta[property="twitter:site" content="@gercondon"]
       meta[property="twitter:title" content="#{locals.key?(:title) ? title : current_page.data.title}"]
       meta[property="twitter:description" content="#{locals.key?(:description) ? description : current_page.data.description}"]
-      meta[property="twitter:url" content="http://www.gerardcondon.com/music#{current_page.url}"]
-      meta[property="twitter:image" content="http://www.gerardcondon.com/music/images/twitter-chess.jpg"]
+      meta[property="twitter:url" content="https://www.gerardcondon.com/music#{current_page.url}"]
+      meta[property="twitter:image" content="https://www.gerardcondon.com/music/images/twitter-chess.jpg"]
     = feed_tag :atom, "#{site_url}/feed.xml", title: "Chess Analysis"
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>

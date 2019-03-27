@@ -13,23 +13,8 @@ jobs:
     steps:
       - checkout
       - run:
-          name: Greeting
-          command: echo Hello, world.
-      - run:
-          name: Print the Current Time
-          command: date
-      - run:
-          name: Print working directory
-          command: pwd
-      - run:
-          name: Print the contents of the working directory
-          command: ls
-      - run:
           name: Execute the build script
           command: ./build.sh
-      - run:
-          name: Print the contents of the website directory
-          command: ls website/build
 
 
 
