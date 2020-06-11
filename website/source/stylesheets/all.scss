@@ -19,3 +19,15 @@ img.center {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* ChordPro Online Styles */
+div.cpro { font-family:sans-serif; }
+div.cpro_line { margin: 1em 0 1em 0; }
+div.cpro_line_section { display: inline; float: left; }
+div.cpro_line_section .chord { color:#990000; }
+div.cpro_line_section .lyric { color:inherit; }
+div.cpro_chorus { padding-left: 20px; margin: 0 0 40px 0; border-left: 3px solid #606060; }
+div.cpro_verse { margin: 0 0 40px 0; }
+div.cpro_clear { clear: both; }
+div.cpro_meta { color:inherit; }
+div.cpro_comment { background-color: #f0f0f0; font-style: italic; padding: 4px; }

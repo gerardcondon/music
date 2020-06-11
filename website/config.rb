@@ -17,6 +17,7 @@
 ###
 # Page options, layouts, aliases and proxies
 ###
+page "pages/*", :layout => :layout
 
 # Slim settings
 Slim::Engine.set_default_options :pretty => true
