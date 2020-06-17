@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Music</title>
+  <subtitle>Site containing resources for piano and Guitar.</subtitle>
+  <id>https://www.gerardcondon.com/music</id>
+  <link href="https://www.gerardcondon.com/music"/>
+  <link href="https://www.gerardcondon.com/music/feed.xml" rel="self"/>
+  <author>
+    <name>Gerard Condon</name>
+  </author>
+</feed>

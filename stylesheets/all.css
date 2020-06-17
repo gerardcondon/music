@@ -1,0 +1,67 @@
+/*
+  any variables and settings should be defined here,
+  like colors for instance
+*/
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/circleci\/repo\/website\/source\/stylesheets\/all\.scss}line{font-family:\000035}}
+body {
+  margin-top: 80px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/circleci\/repo\/website\/source\/stylesheets\/all\.scss}line{font-family:\000039}}
+.tag-item {
+  padding-left: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/circleci\/repo\/website\/source\/stylesheets\/all\.scss}line{font-family:\0000313}}
+figcaption {
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/circleci\/repo\/website\/source\/stylesheets\/all\.scss}line{font-family:\0000317}}
+img.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+/* ChordPro Online Styles */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/circleci\/repo\/website\/source\/stylesheets\/all\.scss}line{font-family:\0000324}}
+div.cpro {
+  font-family: sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/circleci\/repo\/website\/source\/stylesheets\/all\.scss}line{font-family:\0000325}}
+div.cpro_line {
+  margin: 1em 0 1em 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/circleci\/repo\/website\/source\/stylesheets\/all\.scss}line{font-family:\0000326}}
+div.cpro_line_section {
+  display: inline;
+  float: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/circleci\/repo\/website\/source\/stylesheets\/all\.scss}line{font-family:\0000327}}
+div.cpro_line_section .chord {
+  color: #990000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/circleci\/repo\/website\/source\/stylesheets\/all\.scss}line{font-family:\0000328}}
+div.cpro_line_section .lyric {
+  color: inherit; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/circleci\/repo\/website\/source\/stylesheets\/all\.scss}line{font-family:\0000329}}
+div.cpro_chorus {
+  padding-left: 20px;
+  margin: 0 0 40px 0;
+  border-left: 3px solid #606060; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/circleci\/repo\/website\/source\/stylesheets\/all\.scss}line{font-family:\0000330}}
+div.cpro_verse {
+  margin: 0 0 40px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/circleci\/repo\/website\/source\/stylesheets\/all\.scss}line{font-family:\0000331}}
+div.cpro_clear {
+  clear: both; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/circleci\/repo\/website\/source\/stylesheets\/all\.scss}line{font-family:\0000332}}
+div.cpro_meta {
+  color: inherit; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/home\/circleci\/repo\/website\/source\/stylesheets\/all\.scss}line{font-family:\0000333}}
+div.cpro_comment {
+  background-color: #f0f0f0;
+  font-style: italic;
+  padding: 4px; }
